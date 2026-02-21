@@ -1,0 +1,16 @@
+[
+    {
+        "id": "cai-win-online",
+        "title": "Cài Win Online",
+        "description": "Hỗ trợ cài đặt Windows, Office và phần mềm qua UltraView/TeamViewer.",
+        "price": "100.000đ / máy",
+        "icon": "remote"
+    },
+    {
+        "id": "mua-key",
+        "title": "Mua Key Bản Quyền",
+        "description": "Cung cấp key Windows, Office, Kaspersky, IDM chính hãng giá rẻ.",
+        "price": "Từ 150.000đ",
+        "icon": "key"
+    }
+]

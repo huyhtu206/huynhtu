@@ -1,0 +1,219 @@
+[
+    {
+        "id": "mac-tahoe",
+        "title": "Tahoe, Sequoia, Sonoma",
+        "description": "macOS Tahoe (macOS 16)\nmacOS Sequoia (macOS 15)\nmacOS Sonoma (macOS 14)",
+        "generation": "2021 / 2024",
+        "products": [
+            {
+                "id": "mac-suite-teams",
+                "name": "Office suite (with Teams)",
+                "includedApps": [
+                    "Word",
+                    "Excel",
+                    "PowerPoint",
+                    "Outlook",
+                    "OneNote",
+                    "Teams"
+                ],
+                "links": {
+                    "offline": "https://go.microsoft.com/fwlink/p/?linkid=2009112"
+                }
+            },
+            {
+                "id": "mac-suite-no-teams",
+                "name": "Office suite (without Teams)",
+                "includedApps": [
+                    "Word",
+                    "Excel",
+                    "PowerPoint",
+                    "Outlook",
+                    "OneNote"
+                ],
+                "links": {
+                    "offline": "https://go.microsoft.com/fwlink/p/?linkid=525133"
+                }
+            },
+            {
+                "id": "mac-word",
+                "name": "Word",
+                "includedApps": [
+                    "Word"
+                ],
+                "links": {
+                    "offline": "https://go.microsoft.com/fwlink/p/?linkid=525134"
+                }
+            },
+            {
+                "id": "mac-excel",
+                "name": "Excel",
+                "includedApps": [
+                    "Excel"
+                ],
+                "links": {
+                    "offline": "https://go.microsoft.com/fwlink/p/?linkid=525135"
+                }
+            },
+            {
+                "id": "mac-ppt",
+                "name": "PowerPoint",
+                "includedApps": [
+                    "PowerPoint"
+                ],
+                "links": {
+                    "offline": "https://go.microsoft.com/fwlink/p/?linkid=525136"
+                }
+            },
+            {
+                "id": "mac-outlook",
+                "name": "Outlook",
+                "includedApps": [
+                    "Outlook"
+                ],
+                "links": {
+                    "offline": "https://go.microsoft.com/fwlink/p/?linkid=525137"
+                }
+            },
+            {
+                "id": "mac-onenote",
+                "name": "OneNote",
+                "includedApps": [
+                    "OneNote"
+                ],
+                "links": {
+                    "offline": "https://go.microsoft.com/fwlink/p/?linkid=820886"
+                }
+            }
+        ]
+    },
+    {
+        "id": "mac-ventura",
+        "title": "Ventura",
+        "description": "macOS Ventura (macOS 13)",
+        "generation": "2019 / 2021",
+        "products": [
+            {
+                "id": "mac-suite-ventura",
+                "name": "Office suite",
+                "includedApps": [
+                    "All Apps"
+                ],
+                "links": {
+                    "offline": "https://go.microsoft.com/fwlink/p/?linkid=2009112"
+                }
+            }
+        ]
+    },
+    {
+        "id": "mac-monterey",
+        "title": "Monterey",
+        "products": [
+            {
+                "id": "mac-suite-monterey",
+                "name": "Office suite",
+                "includedApps": [
+                    "All Apps"
+                ],
+                "links": {
+                    "offline": "https://go.microsoft.com/fwlink/p/?linkid=2009112"
+                }
+            }
+        ]
+    },
+    {
+        "id": "mac-bigsur",
+        "title": "Big Sur",
+        "products": [
+            {
+                "id": "mac-suite-bigsur",
+                "name": "Office suite",
+                "includedApps": [
+                    "All Apps"
+                ],
+                "links": {
+                    "offline": "https://go.microsoft.com/fwlink/p/?linkid=2009112"
+                }
+            }
+        ]
+    },
+    {
+        "id": "mac-catalina",
+        "title": "Catalina",
+        "products": [
+            {
+                "id": "mac-suite-catalina",
+                "name": "Office suite",
+                "includedApps": [
+                    "All Apps"
+                ],
+                "links": {
+                    "offline": "https://go.microsoft.com/fwlink/p/?linkid=2009112"
+                }
+            }
+        ]
+    },
+    {
+        "id": "mac-mojave",
+        "title": "Mojave",
+        "products": [
+            {
+                "id": "mac-suite-mojave",
+                "name": "Office suite",
+                "includedApps": [
+                    "All Apps"
+                ],
+                "links": {
+                    "offline": "https://go.microsoft.com/fwlink/p/?linkid=2009112"
+                }
+            }
+        ]
+    },
+    {
+        "id": "mac-highsierra",
+        "title": "High Sierra",
+        "products": [
+            {
+                "id": "mac-suite-highsierra",
+                "name": "Office suite",
+                "includedApps": [
+                    "All Apps"
+                ],
+                "links": {
+                    "offline": "https://go.microsoft.com/fwlink/p/?linkid=2009112"
+                }
+            }
+        ]
+    },
+    {
+        "id": "mac-sierra",
+        "title": "Sierra",
+        "products": [
+            {
+                "id": "mac-suite-sierra",
+                "name": "Office suite",
+                "includedApps": [
+                    "All Apps"
+                ],
+                "links": {
+                    "offline": "https://go.microsoft.com/fwlink/p/?linkid=2009112"
+                }
+            }
+        ]
+    },
+    {
+        "id": "mac-elcapitan",
+        "title": "El Capitan, Yosemite",
+        "products": [
+            {
+                "id": "mac-suite-elcapitan",
+                "name": "Office suite",
+                "includedApps": [
+                    "All Apps"
+                ],
+                "links": {
+                    "offline": "https://go.microsoft.com/fwlink/p/?linkid=2009112"
+                }
+            }
+        ]
+    }
+]

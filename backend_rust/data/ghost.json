@@ -1,0 +1,616 @@
+[
+    {
+        "id": "ghost-win11-pro-v4",
+        "title": "Ghost Win 11 Pro 23H2 (No Soft)",
+        "version": "v4.0",
+        "author": "HuynhTu",
+        "description": "Bản Ghost Win 11 nhẹ mượt nhất, giữ nguyên Store và Defender.",
+        "tags": [
+            "Win 11",
+            "Lite",
+            "Gaming"
+        ],
+        "arch": "x64",
+        "boot": "UEFI",
+        "files": [
+            {
+                "type": "TIB",
+                "size": "4.8 GB",
+                "link": "#",
+                "md5": "A1B2C3D4E5F6"
+            }
+        ],
+        "softwareList": [
+            "WinRAR",
+            "Unikey",
+            "Chrome"
+        ],
+        "features": [
+            "Tối ưu hóa RAM",
+            "Tắt Services rác",
+            "Giữ lại Defender"
+        ],
+        "image": "https://images.unsplash.com/photo-1633113088947-013686e5d90c?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        "id": "ghost-win11-gaming-v1",
+        "title": "Ghost Windows 11 Gaming Edition",
+        "version": "v1.2",
+        "author": "HuynhTu",
+        "description": "Siêu nhẹ, lược bỏ tối đa service rác, tập trung hiệu năng Game.",
+        "tags": [
+            "Gaming",
+            "High FPS"
+        ],
+        "arch": "x64",
+        "boot": "UEFI",
+        "files": [
+            {
+                "type": "ISO",
+                "size": "4.2 GB",
+                "link": "#",
+                "md5": "F7E8D9C0"
+            }
+        ],
+        "softwareList": [
+            "DirectX 12",
+            "C++ Redist",
+            "7-Zip"
+        ],
+        "features": [
+            "Bypass TPM",
+            "Giao diện tối",
+            "Tắt Windows Update"
+        ],
+        "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        "id": "ghost-win11-ltsc-full",
+        "title": "Ghost Win 11 Enterprise LTSC 2024",
+        "version": "v2.0",
+        "author": "Professional",
+        "description": "Bản ổn định dài hạn, tích hợp đầy đủ driver và Office.",
+        "tags": [
+            "LTSC",
+            "Office",
+            "Stable"
+        ],
+        "arch": "x64",
+        "boot": "Both",
+        "files": [
+            {
+                "type": "TIB",
+                "size": "5.1 GB",
+                "link": "#",
+                "md5": "B5C6D7E8"
+            }
+        ],
+        "softwareList": [
+            "Office 2024",
+            "Unikey",
+            "Chrome"
+        ],
+        "features": [
+            "IoT License",
+            "Windows Store included",
+            "No Bloatware"
+        ],
+        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        "id": "ghost-win11-lite-office",
+        "title": "Ghost Win 11 Lite for Office",
+        "version": "v3.5",
+        "author": "HuynhTu",
+        "description": "Dành cho dân văn phòng, nhẹ nhàng và ổn định.",
+        "tags": [
+            "Lite",
+            "Office"
+        ],
+        "arch": "x64",
+        "boot": "UEFI",
+        "files": [
+            {
+                "type": "GHO",
+                "size": "4.5 GB",
+                "link": "#",
+                "md5": "D4E5F6G7"
+            }
+        ],
+        "softwareList": [
+            "Office 2021",
+            "Unikey",
+            "PDF Reader"
+        ],
+        "features": [
+            "Tích hợp Font VNI",
+            "Auto Active",
+            "Hỗ trợ in ấn tốt"
+        ],
+        "image": "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        "id": "ghost-win11-insider-pro",
+        "title": "Ghost Windows 11 Insider (Canary)",
+        "version": "Build 27xxx",
+        "author": "BetaTester",
+        "description": "Trải nghiệm những tính năng mới nhất của Windows 11.",
+        "tags": [
+            "Insider",
+            "AI"
+        ],
+        "arch": "x64",
+        "boot": "UEFI",
+        "files": [
+            {
+                "type": "ISO",
+                "size": "5.5 GB",
+                "link": "#",
+                "md5": "E5F6G7H8"
+            }
+        ],
+        "softwareList": [
+            "WinRAR"
+        ],
+        "features": [
+            "Copilot AI ready",
+            "New Explorer",
+            "Bypass Hardware Check"
+        ],
+        "image": "https://images.unsplash.com/photo-1628155930542-3c7a6402c55b?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        "id": "ghost-win11-minimal-v5",
+        "title": "Windows 11 Minimal (By HuynhTu)",
+        "version": "v5.0",
+        "author": "HuynhTu",
+        "description": "Rất nhẹ, chiếm ít tài nguyên, khởi động nhanh.",
+        "tags": [
+            "Minimal",
+            "Tiny"
+        ],
+        "arch": "x64",
+        "boot": "UEFI",
+        "files": [
+            {
+                "type": "TIBX",
+                "size": "3.8 GB",
+                "link": "#",
+                "md5": "F6G7H8I9"
+            }
+        ],
+        "softwareList": [
+            "7-Zip"
+        ],
+        "features": [
+            "No Store",
+            "No Defender",
+            "Super Lite"
+        ],
+        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        "id": "ghost-win11-AIO-2024",
+        "title": "Windows 11 AIO (4 in 1)",
+        "version": "Update April",
+        "author": "HuynhTu",
+        "description": "Tổng hợp Pro, Home, Enterprise, Education trong 1 file cài.",
+        "tags": [
+            "AIO",
+            "Original"
+        ],
+        "arch": "x64",
+        "boot": "Both",
+        "files": [
+            {
+                "type": "ISO",
+                "size": "12.5 GB",
+                "link": "#",
+                "md5": "G7H8I9J0"
+            }
+        ],
+        "softwareList": [
+            "Driver Pack Included"
+        ],
+        "features": [
+            "Gốc MSDN",
+            "Không lược bỏ",
+            "Hỗ trợ UEFI/Legacy"
+        ],
+        "image": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        "id": "ghost-win11-macos-theme",
+        "title": "Windows 11 macOS Edition",
+        "version": "v1.0",
+        "author": "DesignerX",
+        "description": "Giao diện macOS cực đẹp trên nền tảng Windows 11.",
+        "tags": [
+            "macOS",
+            "Theme"
+        ],
+        "arch": "x64",
+        "boot": "UEFI",
+        "files": [
+            {
+                "type": "TIB",
+                "size": "6 GB",
+                "link": "#",
+                "md5": "H8I9J0K1"
+            }
+        ],
+        "softwareList": [
+            "Unikey",
+            "Rainmeter"
+        ],
+        "features": [
+            "Center Dock",
+            "Panda Icons",
+            "Finder-like Explorer"
+        ],
+        "image": "https://images.unsplash.com/photo-1614332284113-9b5520626353?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        "id": "ghost-win11-workstation",
+        "title": "Windows 11 Pro for Workstations",
+        "version": "v2.2",
+        "author": "WorkstationPro",
+        "description": "Hiệu năng cực cao cho đồ họa và xử lý server.",
+        "tags": [
+            "Workstation",
+            "Graphics"
+        ],
+        "arch": "x64",
+        "boot": "UEFI",
+        "files": [
+            {
+                "type": "ISO",
+                "size": "5.8 GB",
+                "link": "#",
+                "md5": "I9J0K1L2"
+            }
+        ],
+        "softwareList": [
+            "Adobe CC 2024 Ready"
+        ],
+        "features": [
+            "ReFS support",
+            "High End Hardware Optimized"
+        ],
+        "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        "id": "ghost-win11-compact-24h2",
+        "title": "Windows 11 Compact 24H2",
+        "version": "v0.1 Alpha",
+        "author": "AlphaGroup",
+        "description": "Phiên bản thử nghiệm sớm của Windows 11 24H2.",
+        "tags": [
+            "24H2",
+            "Next-Gen"
+        ],
+        "arch": "x64",
+        "boot": "UEFI",
+        "files": [
+            {
+                "type": "TIB",
+                "size": "4.2 GB",
+                "link": "#",
+                "md5": "J0K1L2M3"
+            }
+        ],
+        "softwareList": [
+            "Unikey"
+        ],
+        "features": [
+            "Sudo for Windows",
+            "Rust kernel support"
+        ],
+        "image": "https://images.unsplash.com/photo-1624555130581-1d9cca783bc0?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        "id": "ghost-win10-pro-v5",
+        "title": "Ghost Win 10 Pro 22H2 Full Soft",
+        "version": "v5.2",
+        "author": "HuynhTu",
+        "description": "Bản ổn định nhất cho văn phòng, tích hợp sẵn Office 2021.",
+        "tags": [
+            "Win 10",
+            "Full Soft"
+        ],
+        "arch": "x64",
+        "boot": "Both",
+        "files": [
+            {
+                "type": "TIB",
+                "size": "6.5 GB",
+                "link": "#",
+                "md5": "12345678"
+            }
+        ],
+        "softwareList": [
+            "Office 2021",
+            "Chrome",
+            "PDF 24",
+            "WinRAR"
+        ],
+        "features": [
+            "Tắt Update",
+            "Full Driver",
+            "Tối ưu hóa Registry"
+        ],
+        "image": "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        "id": "ghost-win10-gaming-x",
+        "title": "Windows 10 Gaming X Edition",
+        "version": "v3.0",
+        "author": "GamerTeam",
+        "description": "Lược bỏ tối đa, ping thấp, FPS cao cho game thủ.",
+        "tags": [
+            "Gaming",
+            "Low Latency"
+        ],
+        "arch": "x64",
+        "boot": "Both",
+        "files": [
+            {
+                "type": "GHO",
+                "size": "3.5 GB",
+                "link": "#",
+                "md5": "K1L2M3N4"
+            }
+        ],
+        "softwareList": [
+            "Steam",
+            "Discord",
+            "Teamspeak"
+        ],
+        "features": [
+            "No Defender",
+            "Optimized TCP/IP",
+            "Game Mode Ultra"
+        ],
+        "image": "https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        "id": "ghost-win10-ltsc-2021-huynhtu",
+        "title": "Ghost Windows 10 LTSC 2021",
+        "version": "v2.0",
+        "author": "HuynhTu",
+        "description": "Bản Windows 10 'sạch' nhất từ Microsoft, siêu ổn định.",
+        "tags": [
+            "LTSC",
+            "Clean"
+        ],
+        "arch": "x64",
+        "boot": "Both",
+        "files": [
+            {
+                "type": "ISO",
+                "size": "4.1 GB",
+                "link": "#",
+                "md5": "L2M3N4O5"
+            }
+        ],
+        "softwareList": [
+            "WinRAR",
+            "Chrome"
+        ],
+        "features": [
+            "No Bloatware",
+            "5 years support",
+            "Lightweight"
+        ],
+        "image": "https://images.unsplash.com/photo-1549490349-8643362247b5?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        "id": "ghost-win10-edu-v1",
+        "title": "Windows 10 Education (Lite)",
+        "version": "v1.0",
+        "author": "SchoolSupport",
+        "description": "Dành cho học sinh, sinh viên, nhẹ nhàng mượt mà.",
+        "tags": [
+            "Education",
+            "Lite"
+        ],
+        "arch": "x64",
+        "boot": "UEFI",
+        "files": [
+            {
+                "type": "TIB",
+                "size": "3.9 GB",
+                "link": "#",
+                "md5": "M3N4O5P6"
+            }
+        ],
+        "softwareList": [
+            "Microsoft Office 2019"
+        ],
+        "features": [
+            "Tích hợp Zoom",
+            "Teams",
+            "Office Online"
+        ],
+        "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        "id": "ghost-win10-office-2016",
+        "title": "Ghost Win 10 Pro + Office 2016",
+        "version": "v4.2",
+        "author": "OldSchool",
+        "description": "Phiên bản truyền thống, đáng tin cậy cho mọi người dùng.",
+        "tags": [
+            "Pro",
+            "Classic"
+        ],
+        "arch": "x64",
+        "boot": "Legacy",
+        "files": [
+            {
+                "type": "GHO",
+                "size": "5.4 GB",
+                "link": "#",
+                "md5": "N4O5P6Q7"
+            }
+        ],
+        "softwareList": [
+            "Office 2016",
+            "Firefox"
+        ],
+        "features": [
+            "Hỗ trợ máy cũ",
+            "Ổn định cao"
+        ],
+        "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        "id": "ghost-win10-minimal-x86",
+        "title": "Windows 10 Minimal x86",
+        "version": "v1.2",
+        "author": "HuynhTu",
+        "description": "Cứu cánh cho các máy ram 2GB trở xuống.",
+        "tags": [
+            "x86",
+            "Minimal"
+        ],
+        "arch": "x86",
+        "boot": "Legacy",
+        "files": [
+            {
+                "type": "GHO",
+                "size": "2.8 GB",
+                "link": "#",
+                "md5": "O5P6Q7R8"
+            }
+        ],
+        "softwareList": [
+            "VLC",
+            "Lite Browsers"
+        ],
+        "features": [
+            "32-bit",
+            "Super Legacy support"
+        ],
+        "image": "https://images.unsplash.com/photo-1588702547919-26089e690eca?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        "id": "ghost-win10-iot-ent",
+        "title": "Windows 10 IoT Enterprise LTSC",
+        "version": "v2021",
+        "author": "Admin",
+        "description": "Bản Windows hỗ trợ lâu nhất (10 năm).",
+        "tags": [
+            "IoT",
+            "LTSC"
+        ],
+        "arch": "x64",
+        "boot": "Both",
+        "files": [
+            {
+                "type": "ISO",
+                "size": "4.3 GB",
+                "link": "#",
+                "md5": "P6Q7R8S9"
+            }
+        ],
+        "softwareList": [
+            "WinRAR"
+        ],
+        "features": [
+            "10 years support",
+            "HWID Activatable"
+        ],
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        "id": "ghost-win10-nexus-v2",
+        "title": "Windows 10 Nexus UI",
+        "version": "v2.0",
+        "author": "NexusDev",
+        "description": "Tích hợp giao diện hiện đại, icon mới lạ.",
+        "tags": [
+            "Custom UI",
+            "Modern"
+        ],
+        "arch": "x64",
+        "boot": "UEFI",
+        "files": [
+            {
+                "type": "TIB",
+                "size": "5.2 GB",
+                "link": "#",
+                "md5": "Q7R8S9T0"
+            }
+        ],
+        "softwareList": [
+            "Cursor Packs",
+            "Wallpapers"
+        ],
+        "features": [
+            "Custom Shell",
+            "Acrylic effects"
+        ],
+        "image": "https://images.unsplash.com/photo-1550439062-609e15302211?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        "id": "ghost-win10-designer-2024",
+        "title": "Windows 10 For Designer",
+        "version": "v3.1",
+        "author": "CreativePro",
+        "description": "Cài sẵn codec đồ họa, bộ font và Adobe tools.",
+        "tags": [
+            "Design",
+            "Adobe"
+        ],
+        "arch": "x64",
+        "boot": "UEFI",
+        "files": [
+            {
+                "type": "ISO",
+                "size": "7 GB",
+                "link": "#",
+                "md5": "R8S9T0U1"
+            }
+        ],
+        "softwareList": [
+            "Photoshop CC Lite",
+            "Illustrator CC Lite"
+        ],
+        "features": [
+            "All Codecs",
+            "Pre-installed fonts"
+        ],
+        "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        "id": "ghost-win10-ultra-lite-v6",
+        "title": "Windows 10 Ultra Lite v6",
+        "version": "v6.0",
+        "author": "HuynhTu",
+        "description": "Bản Windows 10 nhỏ nhất thế giới.",
+        "tags": [
+            "Ultra Lite",
+            "Tiny"
+        ],
+        "arch": "x64",
+        "boot": "Both",
+        "files": [
+            {
+                "type": "GHO",
+                "size": "2.5 GB",
+                "link": "#",
+                "md5": "S9T0U1V2"
+            }
+        ],
+        "softwareList": [
+            "Unikey"
+        ],
+        "features": [
+            "No Update",
+            "No Defender",
+            "No Search"
+        ],
+        "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?auto=format&fit=crop&q=80&w=800"
+    }
+]

@@ -1,0 +1,33 @@
+import { ActivationKeyItem } from '../types';
+
+export const HWID_KEYS: ActivationKeyItem[] = [
+    { edition: 'Education', key: 'YNMGQ-8RYV3-4PGQ3-C8XTP-7CFBY', ticket: 'Link' },
+    { edition: 'Education N', key: '84NGF-MHBT6-FXBX8-QWJK7-DRR8H', ticket: 'Link' },
+    { edition: 'Enterprise', key: 'XGVPP-NMH47-7TTHJ-W3FW7-8HV2C', ticket: 'Link' },
+    { edition: 'Enterprise N', key: '3V6Q6-NQXCX-V8YXR-9QCYV-QPFCT', ticket: 'Link' },
+    { edition: 'Enterprise LTSB 2015', key: 'FWN7H-PF93Q-4GGP8-M8RF3-MDWWW', ticket: 'Link' },
+    { edition: 'Enterprise LTSB 2016', key: 'NK96Y-D9CD8-W44CQ-R8YTK-DYJWX', ticket: 'Link' },
+    { edition: 'Enterprise LTSC 2019', key: '43TBQ-NH92J-XKTM7-KT3KK-P39PB', ticket: 'Link' },
+    { edition: 'Enterprise N LTSB 2015', key: 'NTX6B-BRYC2-K6786-F6MVQ-M7V2X', ticket: 'Link' },
+    { edition: 'Enterprise N LTSB 2016', key: '2DBW3-N2PJG-MVHW3-G7TDK-9HKR4', ticket: 'Link' },
+    { edition: 'Home', key: 'YTMG3-N6DKC-DKB77-7M9GH-8HVX7', ticket: 'Link' },
+    { edition: 'Home N', key: '4CPRK-NM3K3-X6XXQ-RXX86-WXCHW', ticket: 'Link' },
+    { edition: 'Home China', key: 'N2434-X9D7W-8PF6X-8DV9T-8TYMD', ticket: 'Link' },
+    { edition: 'Home Single Language', key: 'BT79Q-G7N6G-PGBYW-4YWX6-6F4BT', ticket: 'Link' },
+    { edition: 'IoT Enterprise', key: 'XQQYW-NFFMW-XJPBH-K8732-CKFFD', ticket: 'Link' },
+    { edition: 'IoT Enterprise Subscription', key: 'P8Q7T-WNK7X-PMFXY-VXHBG-RRK69', ticket: 'Link' },
+    { edition: 'IoT Enterprise LTSC 2021', key: 'QPM6N-7J2WJ-P88HH-P3YRH-YY74H', ticket: 'Link' },
+    { edition: 'IoT Enterprise LTSC 2024', key: 'CGK42-GYN6Y-VD22B-BX98W-J8JXD', ticket: 'Link' },
+    { edition: 'IoT Enterprise LTSC Subscription 2024', key: 'N979K-XWD77-YW3GB-HBGH6-D32MH', ticket: 'Link' },
+    { edition: 'Pro', key: 'VK7JG-NPHTM-C97JM-9MPGT-3V66T', ticket: 'Link' },
+    { edition: 'Pro N', key: '2B87N-8KFHP-DKV6R-Y2C8J-PKCKT', ticket: 'Link' },
+    { edition: 'Pro Education', key: '8PTT6-RNW4C-6V7J2-C2D3X-MHBPB', ticket: 'Link' },
+    { edition: 'Pro Education N', key: 'GJTYN-HDMQY-FRR76-HVGC7-QPF8P', ticket: 'Link' },
+    { edition: 'Pro for Workstations', key: 'DXG7C-N36C4-C4HTG-X4T3X-2YV77', ticket: 'Link' },
+    { edition: 'Pro N for Workstations', key: 'WYPNQ-8C467-V2W6J-TX4WX-WT2RQ', ticket: 'Link' },
+    { edition: 'S', key: 'V3WVW-N2PV2-CGWC3-34QGF-VMJ2C', ticket: 'Link' },
+    { edition: 'S N', key: 'NH9J3-68WK7-6FB93-4K3DF-DJ4F6', ticket: 'Link' },
+    { edition: 'SE', key: 'KY7PN-VR6RX-83W6Y-6DDYQ-T6R4W', ticket: 'Link' },
+    { edition: 'SE N', key: 'K9VKN-3BGWV-Y624W-MCRMQ-BHDCD', ticket: 'Link' },
+    { edition: 'Team', key: 'XKCNC-J26Q9-KFHD2-FKTHY-KD72Y', ticket: 'Link' }
+];

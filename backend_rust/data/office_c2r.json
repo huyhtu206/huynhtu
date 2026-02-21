@@ -1,0 +1,263 @@
+[
+    {
+        "id": "m365",
+        "title": "Microsoft 365 / Sub",
+        "products": [
+            {
+                "id": "0365ProPlusRetail",
+                "name": "0365ProPlusRetail",
+                "is_new": true,
+                "included_apps": [
+                    "Access",
+                    "Excel",
+                    "Lync",
+                    "OneNote",
+                    "Outlook",
+                    "PowerPoint",
+                    "Publisher",
+                    "Word",
+                    "OneDrive"
+                ],
+                "links": {
+                    "online_x64": "#",
+                    "online_x86": "#",
+                    "offline": "#"
+                }
+            },
+            {
+                "id": "0365AppsBasicRetail",
+                "name": "0365AppsBasicRetail",
+                "included_apps": [
+                    "Excel",
+                    "OneNote",
+                    "PowerPoint",
+                    "Word",
+                    "OneDrive"
+                ],
+                "links": {
+                    "online_x64": "#",
+                    "online_x86": "#",
+                    "offline": "NA"
+                }
+            },
+            {
+                "id": "0365BusinessRetail",
+                "name": "0365BusinessRetail",
+                "included_apps": [
+                    "Access",
+                    "Excel",
+                    "Lync",
+                    "OneNote",
+                    "Outlook",
+                    "PowerPoint",
+                    "Publisher",
+                    "Word",
+                    "OneDrive"
+                ],
+                "links": {
+                    "online_x64": "#",
+                    "online_x86": "#",
+                    "offline": "#"
+                }
+            },
+            {
+                "id": "0365EduCloudRetail",
+                "name": "0365EduCloudRetail",
+                "included_apps": [
+                    "Excel",
+                    "OneNote",
+                    "PowerPoint",
+                    "Word",
+                    "OneDrive"
+                ],
+                "links": {
+                    "online_x64": "#",
+                    "online_x86": "#",
+                    "offline": "NA"
+                }
+            },
+            {
+                "id": "0365HomePremRetail",
+                "name": "0365HomePremRetail",
+                "included_apps": [
+                    "Access",
+                    "Excel",
+                    "OneNote",
+                    "Outlook",
+                    "PowerPoint",
+                    "Publisher",
+                    "Word",
+                    "OneDrive"
+                ],
+                "links": {
+                    "online_x64": "#",
+                    "online_x86": "#",
+                    "offline": "#"
+                }
+            }
+        ]
+    },
+    {
+        "id": "office-2024",
+        "title": "Office 2024",
+        "products": [
+            {
+                "id": "ProPlus2024Retail",
+                "name": "ProPlus2024Retail",
+                "included_apps": [
+                    "Access",
+                    "Excel",
+                    "OneNote",
+                    "Outlook",
+                    "PowerPoint",
+                    "Word"
+                ],
+                "links": {
+                    "online_x64": "#",
+                    "online_x86": "#",
+                    "offline": "#"
+                }
+            },
+            {
+                "id": "ProjectPro2024Retail",
+                "name": "ProjectPro2024Retail",
+                "included_apps": [
+                    "Project"
+                ],
+                "links": {
+                    "online_x64": "#",
+                    "online_x86": "#",
+                    "offline": "#"
+                }
+            },
+            {
+                "id": "VisioPro2024Retail",
+                "name": "VisioPro2024Retail",
+                "included_apps": [
+                    "Visio"
+                ],
+                "links": {
+                    "online_x64": "#",
+                    "online_x86": "#",
+                    "offline": "#"
+                }
+            }
+        ]
+    },
+    {
+        "id": "office-2021",
+        "title": "Office 2021",
+        "products": [
+            {
+                "id": "ProPlus2021Retail",
+                "name": "ProPlus2021Retail",
+                "included_apps": [
+                    "Access",
+                    "Excel",
+                    "OneNote",
+                    "Outlook",
+                    "PowerPoint",
+                    "Word"
+                ],
+                "links": {
+                    "online_x64": "#",
+                    "online_x86": "#",
+                    "offline": "#"
+                }
+            },
+            {
+                "id": "ProjectPro2021Retail",
+                "name": "ProjectPro2021Retail",
+                "included_apps": [
+                    "Project"
+                ],
+                "links": {
+                    "online_x64": "#",
+                    "online_x86": "#",
+                    "offline": "#"
+                }
+            },
+            {
+                "id": "VisioPro2021Retail",
+                "name": "VisioPro2021Retail",
+                "included_apps": [
+                    "Visio"
+                ],
+                "links": {
+                    "online_x64": "#",
+                    "online_x86": "#",
+                    "offline": "#"
+                }
+            }
+        ]
+    },
+    {
+        "id": "office-2019",
+        "title": "Office 2019",
+        "products": [
+            {
+                "id": "ProPlus2019Retail",
+                "name": "ProPlus2019Retail",
+                "included_apps": [
+                    "Access",
+                    "Excel",
+                    "OneNote",
+                    "Outlook",
+                    "PowerPoint",
+                    "Word"
+                ],
+                "links": {
+                    "online_x64": "#",
+                    "online_x86": "#",
+                    "offline": "#"
+                }
+            }
+        ]
+    },
+    {
+        "id": "office-2016",
+        "title": "Office 2016",
+        "products": [
+            {
+                "id": "ProPlusRetail",
+                "name": "ProPlusRetail",
+                "included_apps": [
+                    "Access",
+                    "Excel",
+                    "OneNote",
+                    "Outlook",
+                    "PowerPoint",
+                    "Word"
+                ],
+                "links": {
+                    "online_x64": "#",
+                    "online_x86": "#",
+                    "offline": "#"
+                }
+            }
+        ]
+    },
+    {
+        "id": "office-2013",
+        "title": "Office 2013",
+        "products": [
+            {
+                "id": "ProPlusRetail",
+                "name": "ProPlusRetail",
+                "included_apps": [
+                    "Access",
+                    "Excel",
+                    "OneNote",
+                    "Outlook",
+                    "PowerPoint",
+                    "Word"
+                ],
+                "links": {
+                    "online_x64": "#",
+                    "online_x86": "#",
+                    "offline": "#"
+                }
+            }
+        ]
+    }
+]

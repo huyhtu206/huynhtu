@@ -1,0 +1,511 @@
+[
+    {
+        "id": "win-11",
+        "title": "Windows 11",
+        "faqs": [
+            {
+                "question": "Làm sao tôi có thể xác minh xem những tập tin này có phải là thật hay không?",
+                "answer": "Tất cả các tệp ISO được cung cấp đều là tệp gốc từ Microsoft (MSDN). Bạn có thể xác minh tính toàn vẹn của tệp bằng cách so sánh mã băm SHA-256 được cung cấp với mã băm chính thức từ Microsoft."
+            },
+            {
+                "question": "Phiên bản ISO dành cho người tiêu dùng bao gồm tất cả các phiên bản...",
+                "answer": "Đúng vậy. Phiên bản \"Consumer Editions\" chứa: Home, Home N, Education, Education N, Pro, Pro N. Phiên bản \"Business Editions\" chứa: Education, Enterprise, Pro, Pro for Workstations."
+            },
+            {
+                "question": "Làm thế nào để bỏ qua yêu cầu kết nối Internet và tài khoản Microsoft trên Windows 11?",
+                "answer": "Tại màn hình \"Let's connect you to a network\", nhấn **Shift + F10** để mở CMD, sau đó gõ `OOBE\\BYPASSNRO` và nhấn Enter. Máy sẽ khởi động lại và xuất hiện tùy chọn \"I don't have internet\"."
+            },
+            {
+                "question": "Làm thế nào để cài đặt sạch Windows 11 IoT Enterprise 25H2 bằng ngôn ngữ không phải tiếng Anh?",
+                "answer": "Hiện tại bản IoT Enterprise 25H2 chủ yếu có tiếng Anh. Bạn có thể cài bản tiếng Anh trước, sau đó vào Settings > Time & Language > Language để tải gói ngôn ngữ mong muốn."
+            },
+            {
+                "question": "Làm thế nào để cài đặt Windows 11 trên phần cứng không được hỗ trợ?",
+                "answer": "Bạn có thể sử dụng công cụ **Rufus** để tạo USB cài đặt. Trong Rufus, chọn tùy chọn \"Remove hardware requirements (TPM 2.0, Secure Boot, RAM)\" khi bấm Start."
+            }
+        ],
+        "subcategories": [
+            {
+                "id": "win-11-editions",
+                "title": "Phiên bản",
+                "items": [
+                    {
+                        "id": "win-11-consumer-24h2",
+                        "name": "Windows 11 Consumer 24H2",
+                        "releases": [
+                            {
+                                "id": "latest",
+                                "title": "Latest Release",
+                                "files": [
+                                    {
+                                        "language": "English",
+                                        "arch": "x64",
+                                        "sha256": "812C411985796E497A0A9F9B0319D827CACD29A1D7A73E7A3D7E9D7C9D7C9D7C",
+                                        "filename": "en-us_windows_11_consumer_24h2_x64.iso",
+                                        "link": "#",
+                                        "build_number": "26100.1742",
+                                        "release_date": "2024-10-01",
+                                        "size": "5.8 GB"
+                                    },
+                                    {
+                                        "language": "Vietnamese",
+                                        "arch": "x64",
+                                        "sha256": "923D522096807F508B1B0F0C1420E938DBDE30B2E8B84F8B4E8F8E8D8E8D8E8D",
+                                        "filename": "vi-vn_windows_11_consumer_24h2_x64.iso",
+                                        "link": "#",
+                                        "build_number": "26100.1742",
+                                        "release_date": "2024-10-01",
+                                        "size": "5.8 GB"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "win-11-consumer-23h2",
+                        "name": "Windows 11 Consumer 23H2",
+                        "releases": [
+                            {
+                                "id": "latest",
+                                "files": [
+                                    {
+                                        "language": "English",
+                                        "arch": "x64",
+                                        "sha256": "SHA256_WIN11_23H2_ENG",
+                                        "filename": "en-us_windows_11_consumer_23h2_x64.iso",
+                                        "link": "#",
+                                        "size": "6.2 GB"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "win-11-iot-ent-24h2",
+                        "name": "Windows 11 IoT Enterprise 24H2",
+                        "releases": [
+                            {
+                                "id": "latest",
+                                "files": [
+                                    {
+                                        "language": "English",
+                                        "arch": "x64",
+                                        "sha256": "SHA256_W11_IOT_24H2",
+                                        "filename": "en-us_windows_11_iot_enterprise_24h2_x64.iso",
+                                        "link": "#",
+                                        "size": "4.8 GB"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "win-10",
+        "title": "Windows 10",
+        "faqs": [
+            {
+                "question": "Các bản cập nhật Windows 10 sau khi hết hạn hỗ trợ?",
+                "answer": "Windows 10 sẽ kết thúc hỗ trợ vào ngày 14/10/2025. Sau thời điểm này, Microsoft sẽ không cung cấp các bản cập nhật bảo mật miễn phí cho người dùng cá nhân (trừ LTSC)."
+            },
+            {
+                "question": "Làm sao tôi có thể xác minh xem những tập tin này có phải là thật hay không?",
+                "answer": "Bạn có thể kiểm tra mã SHA-256 của file tải về và so sánh với mã hiển thị trên website này."
+            },
+            {
+                "question": "Sự khác biệt giữa bản Consumer và Business?",
+                "answer": "Bản Consumer phù hợp cho người dùng cá nhân (Home/Pro). Bản Business dành cho doanh nghiệp (Enterprise/Education) và thường yêu cầu kích hoạt qua KMS hoặc Volume License."
+            }
+        ],
+        "subcategories": [
+            {
+                "id": "win-10-editions",
+                "title": "Phiên bản",
+                "items": [
+                    {
+                        "id": "win-10-consumer-22h2",
+                        "name": "Windows 10 Consumer 22H2",
+                        "releases": [
+                            {
+                                "id": "latest",
+                                "files": [
+                                    {
+                                        "language": "English",
+                                        "arch": "x64",
+                                        "sha256": "SHA256_WIN10_22H2_ENG",
+                                        "filename": "en-us_windows_10_consumer_22h2_x64.iso",
+                                        "link": "#",
+                                        "size": "5.7 GB"
+                                    },
+                                    {
+                                        "language": "Vietnamese",
+                                        "arch": "x64",
+                                        "sha256": "SHA256_WIN10_22H2_VI",
+                                        "filename": "vi-vn_windows_10_consumer_22h2_x64.iso",
+                                        "link": "#",
+                                        "size": "5.7 GB"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "win-ltsc",
+        "title": "Windows LTSC",
+        "faqs": [
+            {
+                "question": "LTSC là gì, và liệu đó có phải là lựa chọn phù hợp với bạn?",
+                "answer": "LTSC (Long-Term Servicing Channel) là phiên bản Windows ổn định dài hạn, không có các ứng dụng rác (Bloatware), Store hay Edge. Nó được thiết kế cho các hệ thống quan trọng cần sự ổn định cao. Nếu bạn cần một Windows nhẹ, mượt và ít cập nhật tính năng, LTSC là lựa chọn tuyệt vời."
+            },
+            {
+                "question": "Cài đặt ứng dụng Microsoft Store trên LTSC?",
+                "answer": "Mặc định LTSC không có Store. Bạn có thể cài đặt thủ công bằng cách tải gói cài đặt Store từ GitHub (ví dụ: dự án LTSC-Add-MicrosoftStore)."
+            },
+            {
+                "question": "Sự khác biệt giữa Windows Enterprise LTSC hỗ trợ IoT và không hỗ trợ IoT?",
+                "answer": "Về cơ bản chúng giống nhau về tính năng. Tuy nhiên, bản **IoT Enterprise LTSC** có chu kỳ hỗ trợ dài hơn (10 năm so với 5 năm của bản Enterprise LTSC thông thường) và hỗ trợ HWID activation."
+            }
+        ],
+        "subcategories": [
+            {
+                "id": "win-ltsc-versions",
+                "title": "Phiên bản",
+                "items": [
+                    {
+                        "id": "win-11-ltsc-2024",
+                        "name": "Windows 11 LTSC 2024",
+                        "releases": [
+                            {
+                                "id": "latest",
+                                "files": [
+                                    {
+                                        "language": "English",
+                                        "arch": "x64",
+                                        "sha256": "SHA256_W11_LTSC_2024",
+                                        "filename": "en-us_windows_11_enterprise_ltsc_2024_x64.iso",
+                                        "link": "#",
+                                        "size": "4.9 GB"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "win-10-ltsc-2021",
+                        "name": "Windows 10 LTSC 2021",
+                        "releases": [
+                            {
+                                "id": "latest",
+                                "files": [
+                                    {
+                                        "language": "English",
+                                        "arch": "x64",
+                                        "sha256": "SHA256_W10_LTSC_2021",
+                                        "filename": "en-us_windows_10_enterprise_ltsc_2021_x64.iso",
+                                        "link": "#",
+                                        "size": "4.5 GB"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "win-arm64",
+        "title": "Windows ARM64",
+        "faqs": [
+            {
+                "question": "Bạn cần bộ xử lý (CPU) ARM64 để cài đặt hệ điều hành Windows kiến trúc ARM64.",
+                "answer": "Đúng vậy. Phiên bản này chỉ hoạt động trên các thiết bị sử dụng chip ARM (ví dụ: Surface Pro X, Lenovo ThinkPad X13s, hoặc máy Mac chạy Apple Silicon qua Parallels Desktop)."
+            }
+        ],
+        "subcategories": [
+            {
+                "id": "win-arm64-editions",
+                "title": "Phiên bản",
+                "items": [
+                    {
+                        "id": "win-arm-consumer-24h2",
+                        "name": "Windows 11 Consumer 24H2 (ARM)",
+                        "releases": [
+                            {
+                                "id": "latest",
+                                "files": [
+                                    {
+                                        "language": "English",
+                                        "arch": "arm64",
+                                        "sha256": "SHA256_W11_ARM_24H2",
+                                        "filename": "en-us_windows_11_consumer_24h2_arm64.iso",
+                                        "link": "#"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "win-server",
+        "title": "Windows Server",
+        "faqs": [
+            {
+                "question": "Windows Server có miễn phí không?",
+                "answer": "Microsoft cung cấp bản dùng thử (Evaluation) miễn phí 180 ngày. Sau đó bạn cần mua bản quyền hoặc kích hoạt để tiếp tục sử dụng đầy đủ tính năng."
+            }
+        ],
+        "subcategories": [
+            {
+                "id": "win-server-versions",
+                "title": "Phiên bản",
+                "items": [
+                    {
+                        "id": "win-server-2025",
+                        "name": "Windows Server 2025",
+                        "releases": [
+                            {
+                                "id": "latest",
+                                "files": [
+                                    {
+                                        "language": "English",
+                                        "arch": "x64",
+                                        "sha256": "SHA256_WS_2025",
+                                        "filename": "en-us_windows_server_2025_x64.iso",
+                                        "link": "#"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "win-server-2022",
+                        "name": "Windows Server 2022",
+                        "releases": [
+                            {
+                                "id": "latest",
+                                "files": [
+                                    {
+                                        "language": "English",
+                                        "arch": "x64",
+                                        "sha256": "SHA256_WS_2022",
+                                        "filename": "en-us_windows_server_2022_x64.iso",
+                                        "link": "#"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "win-81",
+        "title": "Windows 8.1",
+        "faqs": [
+            {
+                "question": "Windows 8.1 còn được hỗ trợ không?",
+                "answer": "Windows 8.1 đã chính thức kết thúc hỗ trợ vào ngày 10/01/2023. Bạn sẽ không còn nhận được các bản vá bảo mật."
+            }
+        ],
+        "subcategories": [
+            {
+                "id": "win-81-category1",
+                "title": "Phiên bản",
+                "items": [
+                    {
+                        "id": "win-81-with-update",
+                        "name": "Windows 8.1 with Update",
+                        "releases": [
+                            {
+                                "id": "final",
+                                "files": [
+                                    {
+                                        "language": "English",
+                                        "arch": "x64",
+                                        "sha256": "SHA256_WIN81_ENG",
+                                        "filename": "en-us_windows_8.1_with_update_x64.iso",
+                                        "link": "#"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "win-8",
+        "title": "Windows 8",
+        "faqs": [
+            {
+                "question": "Tại sao tôi nên dùng Windows 8.1 thay vì Windows 8?",
+                "answer": "Windows 8.1 là bản nâng cấp hoàn thiện hơn, ổn định hơn và sửa chữa nhiều lỗi của Windows 8."
+            }
+        ],
+        "subcategories": [
+            {
+                "id": "win-8-editions",
+                "title": "Phiên bản",
+                "items": [
+                    {
+                        "id": "win-8-pro",
+                        "name": "Windows 8 Pro",
+                        "releases": [
+                            {
+                                "id": "final",
+                                "files": [
+                                    {
+                                        "language": "English",
+                                        "arch": "x64",
+                                        "sha256": "SHA256_WIN8_PRO",
+                                        "filename": "en-us_windows_8_pro_x64.iso",
+                                        "link": "#"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "win-7",
+        "title": "Windows 7",
+        "faqs": [
+            {
+                "question": "Windows 7 còn an toàn không?",
+                "answer": "Windows 7 đã ngừng hỗ trợ từ 14/01/2020. Việc sử dụng nó tiềm ẩn rủi ro bảo mật lớn."
+            }
+        ],
+        "subcategories": [
+            {
+                "id": "win-7-versions",
+                "title": "Phiên bản",
+                "items": [
+                    {
+                        "id": "win-7-ultimate-sp1",
+                        "name": "Windows 7 Ultimate SP1",
+                        "releases": [
+                            {
+                                "id": "ultimate",
+                                "files": [
+                                    {
+                                        "language": "English",
+                                        "arch": "x64",
+                                        "sha256": "SHA256_WIN7_ULTIMATE",
+                                        "filename": "en-us_windows_7_ultimate_with_sp1_x64.iso",
+                                        "link": "#"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "win-7-pro-sp1",
+                        "name": "Windows 7 Professional SP1",
+                        "releases": [
+                            {
+                                "id": "pro",
+                                "files": [
+                                    {
+                                        "language": "English",
+                                        "arch": "x64",
+                                        "sha256": "SHA256_WIN7_PRO",
+                                        "filename": "en-us_windows_7_professional_with_sp1_x64.iso",
+                                        "link": "#"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "win-vista",
+        "title": "Windows Vista",
+        "faqs": [
+            {
+                "question": "Windows Vista yêu cầu cấu hình như thế nào?",
+                "answer": "Vista khá nặng so với XP thời đó, nhưng với máy tính hiện nay thì nó rất nhẹ."
+            }
+        ],
+        "subcategories": [
+            {
+                "id": "win-vista-editions",
+                "title": "Phiên bản",
+                "items": [
+                    {
+                        "id": "win-vista-ultimate",
+                        "name": "Windows Vista Ultimate SP2",
+                        "releases": [
+                            {
+                                "id": "final",
+                                "files": [
+                                    {
+                                        "language": "English",
+                                        "arch": "x64",
+                                        "sha256": "SHA256_VISTA_ULT",
+                                        "filename": "en-us_windows_vista_ultimate_sp2_x64.iso",
+                                        "link": "#"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "win-xp",
+        "title": "Windows XP",
+        "faqs": [
+            {
+                "question": "Tôi có thể lướt web trên Windows XP không?",
+                "answer": "Rất khó. Hầu hết các trình duyệt hiện đại (Chrome, Firefox, Edge) đều không còn hỗ trợ XP."
+            }
+        ],
+        "subcategories": [
+            {
+                "id": "win-xp-versions",
+                "title": "Phiên bản",
+                "items": [
+                    {
+                        "id": "win-xp-pro-sp3",
+                        "name": "Windows XP Professional SP3",
+                        "releases": [
+                            {
+                                "id": "sp3",
+                                "files": [
+                                    {
+                                        "language": "English",
+                                        "arch": "x86",
+                                        "sha256": "SHA256_WINXP_PRO",
+                                        "filename": "en-us_windows_xp_professional_sp3_x86.iso",
+                                        "link": "#"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
