@@ -1,0 +1,30 @@
+
+ Γ¢à∩╕Å wrangler 4.68.0
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+
+X [ERROR] A request to the Cloudflare API (/accounts/99b87c095b69dbecf541c71e74fb4b8d/pages/projects/huynhtu-portal) failed.
+
+  Authentication error [code: 10000]
+
+
+≡ƒôÄ It looks like you are authenticating Wrangler via a custom API token set in an environment variable.
+Please ensure it has the correct permissions for this operation.
+
+Getting User settings...
+≡ƒæï You are logged in with an Account API Token, associated with the account Huyhtu331@gmail.com's Account.
+Γä╣∩╕Å  The API Token is read from the CLOUDFLARE_API_TOKEN environment variable.
+ΓöîΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö¼ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÉ
+Γöé Account Name                  Γöé Account ID                       Γöé
+Γö£ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö╝ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöñ
+Γöé Huyhtu331@gmail.com's Account Γöé 99b87c095b69dbecf541c71e74fb4b8d Γöé
+ΓööΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö┤ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÿ
+≡ƒöô To see token permissions visit https://dash.cloudflare.com/99b87c095b69dbecf541c71e74fb4b8d/api-tokens.
+
+X [ERROR] A request to the Cloudflare API (/memberships) failed.
+
+  Unable to authenticate request [code: 10001]
+  
+  If you think this is a bug, please open an issue at: https://github.com/cloudflare/workers-sdk/issues/new/choose
+
+
+≡ƒ¬╡  Logs were written to "C:\Users\huyht\AppData\Roaming\xdg.config\.wrangler\logs\wrangler-2026-02-24_08-13-28_682.log"
