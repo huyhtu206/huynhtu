@@ -1,32 +1,31 @@
-
 import { ReactNode } from 'react';
 
-export type DocSectionType = 'text' | 'code' | 'image' | 'alert' | 'steps' | 'table' | 'windows-menu' | 'software-catalog' | 'form' | 'accordion' | 'iso-form' | 'service-grid' | 'ghost-grid' | 'content' | 'ghost-catalog' | 'windows-release-grid' | 'callout' | 'services-grid' | 'news-grid' | 'download-grid' | 'activation-view';
+export type DocSectionType = 'text' | 'code' | 'callout' | 'list' | 'download-grid' | 'news-grid' | 'form' | 'accordion' | 'iso-form' | 'services-grid' | 'software-catalog' | 'ghost-catalog' | 'windows-release-grid' | 'quickstart-hero' | 'grid-cards' | 'office-downloader' | 'activation-section' | 'office-msi-downloader' | 'sponsor-page' | 'driver-page';
+
 
 export type PlatformType = 'windows' | 'mac' | 'linux';
 
 export interface DownloadItem {
-  id: string;
   title: string;
   version: string; // Current/Default version
   versions?: string[]; // List of available versions
-  versionLinks?: Record<string, string>; // Maps version string to specific download URL
   size: string;
   description: string;
-  link: string; // Default download link
-  tag?: string;
+  link: string;
+  tag?: string; // Deprecated, use tags
   tags?: string[];
-  icon?: string; // Lucide icon name
-  iconUrl?: string; // External image URL for the icon
+  icon?: string;
   category?: string;
-  downloads?: string;
+  downloads?: string; // e.g. "1,234,567"
   author?: string;
+  // Multi-platform support
   platforms: PlatformType[];
   commands?: {
-    windows?: string;
-    mac?: string;
-    linux?: string;
+    windows?: string; // winget
+    mac?: string;     // brew
+    linux?: string;   // apt or snap
   };
+  // Fallback for backward compatibility
   cliCommand?: string;
 }
 
@@ -95,17 +94,8 @@ export interface WindowsIsoItem {
   arch: 'x64' | 'x86' | 'arm64' | 'Universal';
   filename: string;
   link: string;
-  version: string;
-  sha256: string;
-  size?: string; // New: "5.4 GB"
-  buildNumber?: string; // New: "22631.2428"
-  releaseDate?: string; // New: "2023-10-31"
-}
-
-export interface ActivationKeyItem {
-  edition: string;
-  key: string;
-  ticket: string; // Link
+  version: string; // New
+  sha256: string; // New
 }
 
 export interface WindowsEdition {
@@ -116,16 +106,58 @@ export interface WindowsEdition {
   buildVersion: string; // "Build - 26200..."
   releaseDate?: string;
   isoList: WindowsIsoItem[];
+  msProductId?: number; // Microsoft Software Download Product ID
+}
+
+export interface GridCardItem {
+  title: string;
+  description?: string;
+  image?: string;
+  link?: string;
+  badge?: string;
+}
+
+export interface OfficeC2RProduct {
+  productId: string;
+  includedApps: string;
+  onlineX64: string;
+  onlineX32: string;
+  offlineX32X64: string;
+}
+
+export interface OfficeC2RCategory {
+  id: string;
+  title: string;
+  subTitle?: string;
+  buildVersion?: string;
+  description?: string;
+  products: OfficeC2RProduct[];
+}
+
+export interface OfficeDownloaderData {
+  languages: { label: string; value: string }[];
+  categories: OfficeC2RCategory[];
+}
+
+export interface ActivationKey {
+  product: string;
+  key?: string;
+  ticketLink?: string;
+  label?: string; // For varied table headers
+}
+
+export interface ActivationSection {
+  title: string;
+  headers: { label: string; key: keyof ActivationKey }[];
+  items: ActivationKey[];
 }
 
 export interface DocBlock {
   type: DocSectionType;
-  content: string | string[] | DownloadItem[] | NewsItem[] | FormField[] | AccordionItem[] | IsoFormBlock | ServiceItem[] | GhostItem[] | WindowsEdition[] | WindowsMenuItem[] | ActivationKeyItem[];
+  content: string | string[] | DownloadItem[] | NewsItem[] | FormField[] | AccordionItem[] | IsoFormBlock | ServiceItem[] | GhostItem[] | WindowsEdition[] | GridCardItem[] | OfficeDownloaderData | ActivationSection[];
   language?: string;
   variant?: 'info' | 'warning' | 'tip' | 'danger';
   title?: string;
-  menuType?: 'windows' | 'office' | 'office-mac' | 'hwid' | 'ohook';
-  officeVersions?: any[]; // Using any[] to avoid circular dependency or import issues for now, or Import OfficeVersion
 }
 
 export interface DocPage {
@@ -142,71 +174,4 @@ export interface NavItem {
   pages?: NavItem[];
   isSection?: boolean;
   badge?: string; // "new", "beta", etc.
-}
-
-export interface FAQItem {
-  question: string;
-  answer: string | React.ReactNode;
-}
-
-export interface WindowsSubcategory {
-  id: string;
-  title: string;
-  items: {
-    id: string;
-    name: string;
-    releases?: {
-      id: string;
-      title?: string;
-      files: {
-        language: string;
-        arch: 'x64' | 'x86' | 'arm64' | 'Universal';
-        sha256: string;
-        link: string;
-        filename: string;
-        version?: string;
-        buildNumber?: string;
-        releaseDate?: string;
-        size?: string;
-      }[];
-    }[];
-  }[];
-}
-
-export interface WindowsMenuItem {
-  id: string;
-  title: string;
-  subcategories?: WindowsSubcategory[];
-  faqs?: FAQItem[];
-}
-
-export interface OfficeProduct {
-  id: string; // e.g. "0365ProPlusRetail"
-  name: string; // Display name if different? Usually matches ID
-  includedApps: string[]; // "Access, Excel..."
-  links: {
-    online_x64?: string;
-    online_x86?: string;
-    offline?: string;
-  };
-  isNew?: boolean; // For <Heart> icon
-}
-
-export interface OfficeVersion {
-  id: string; // 'm365', '2024'
-  title: string; // "Microsoft 365 / Sub"
-  description?: string;
-  generation?: string;
-  products: OfficeProduct[];
-}
-
-export interface OfficeLanguage {
-  code: string; // "en-us"
-  name: string; // "English"
-  region?: string; // "United States" or full string "English [en-US]"
-}
-
-export interface OfficeMenuData {
-  versions: OfficeVersion[];
-  languages: OfficeLanguage[];
 }

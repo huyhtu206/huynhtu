@@ -1,6 +1,0 @@
-name = "huynhtu-api"
-main = "src/index.ts"
-compatibility_date = "2024-02-21"
-
-[vars]
-ENVIRONMENT = "production"

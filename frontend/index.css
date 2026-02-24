@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #000000;
+  --bg-secondary: #0d0d0d;
+  --text-primary: #DCDCDC;
+  --text-secondary: #8e8ea0;
+  --border: #212121;
+  --accent: #FFFFFF;
+  --selection-bg: #FFFFFF;
+  --selection-text: #000000;
+  --scrollbar-thumb: #2a2a2a;
+}
+
+[data-theme='light'] {
+  --bg-primary: #FFFFFF;
+  --bg-secondary: #fafafa;
+  --text-primary: #111111;
+  --text-secondary: #666666;
+  --border: #e5e5e5;
+  --accent: #000000;
+  --selection-bg: #000000;
+  --selection-text: #FFFFFF;
+  --scrollbar-thumb: #d4d4d4;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: var(--selection-bg);
+  color: var(--selection-text);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+/* Transitions */
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Glassmorphism Classes */
+.glass-header {
+  backdrop-filter: blur(12px);
+  background-color: rgba(var(--bg-primary-rgb), 0.8);
+  border-bottom: 1px solid var(--border);
+}
+
+.card-openai {
+  @apply rounded-xl border transition-all p-6;
+  background-color: var(--bg-secondary);
+  border-color: var(--border);
+}
+
+.card-openai:hover {
+  border-color: var(--accent);
+}
+
+.prose {
+  color: var(--text-secondary);
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}

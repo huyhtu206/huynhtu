@@ -1,0 +1,19 @@
+
+ Γ¢à∩╕Å wrangler 4.68.0
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+Total Upload: 2.07 KiB / gzip: 0.94 KiB
+Your Worker has access to the following bindings:
+Binding                                           Resource          
+env.LINKS (62e0717cb4ad489d853bed5251a060ff)      KV Namespace      
+
+
+X [ERROR] A request to the Cloudflare API (/accounts/99b87c095b69dbecf541c71e74fb4b8d/workers/scripts/huynhtu-download-proxy) failed.
+
+  KV namespace '62e0717cb4ad489d853bed5251a060ff' not found. Verify the namespace exists in your account and that the namespace_id in your configuration is correct. [code: 10041]
+  To learn more about this error, visit: https://developers.cloudflare.com/kv/get-started/
+
+  
+  If you think this is a bug, please open an issue at: https://github.com/cloudflare/workers-sdk/issues/new/choose
+
+
+≡ƒ¬╡  Logs were written to "C:\Users\huyht\AppData\Roaming\xdg.config\.wrangler\logs\wrangler-2026-02-24_06-21-03_112.log"

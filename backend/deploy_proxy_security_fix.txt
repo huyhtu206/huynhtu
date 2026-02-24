@@ -1,0 +1,17 @@
+
+ Γ¢à∩╕Å wrangler 4.68.0
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+
+X [ERROR] Build failed with 1 error:
+
+  X [ERROR] Unexpected end of file
+  
+      worker-proxy.js:169:0:
+        169 Γöé 
+            Γò╡ ^
+  
+  
+
+
+≡ƒ¬╡  Logs were written to "C:\Users\huyht\AppData\Roaming\xdg.config\.wrangler\logs\wrangler-2026-02-24_07-26-48_369.log"
+Assertion failed: !(handle->flags & UV_HANDLE_CLOSING), file src\win\async.c, line 76

@@ -1,0 +1,97 @@
+
+ Γ¢à∩╕Å wrangler 4.68.0
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+[custom build] Running: cargo build --release --target wasm32-unknown-unknown && wasm-bindgen --target bundler target/wasm32-unknown-unknown/release/huynhtu_backend.wasm --out-dir build/worker
+[custom build]    Compiling huynhtu-backend v0.1.0 (C:\Users\huyht\Downloads\huynhtu\backend)
+[custom build] 
+[custom build] warning: struct `ResolveRequest` is never constructed
+[custom build]  --> src\routes\download.rs:5:8
+[custom build]   |
+[custom build] 5 | struct ResolveRequest {
+[custom build]   |        ^^^^^^^^^^^^^^
+[custom build]   |
+[custom build]   = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+[custom build] 
+[custom build] 
+[custom build] warning: struct `DriverPatternRequest` is never constructed
+[custom build]  --> src\routes\drivers.rs:5:12
+[custom build]   |
+[custom build] 5
+[custom build]  | pub struct DriverPatternRequest {
+[custom build]   |            ^^^^^^^^^^^^^^^^^^^^
+[custom build] 
+[custom build] 
+[custom build] warning: `huynhtu-backend` (lib) generated 2 warnings
+[custom build]     Finished `release` profile [optimized] target(s) in 7.07s
+[custom build] 
+[custom build] 'wasm-bindgen' is not recognized as an internal or external command,
+[custom build] operable program or batch file.
+[custom build] 
+X [ERROR] Error: Command failed with exit code 1: cargo build --release --target wasm32-unknown-unknown && wasm-bindgen --target bundler target/wasm32-unknown-unknown/release/huynhtu_backend.wasm --out-dir build/worker
+
+     Compiling huynhtu-backend v0.1.0 (C:\Users\huyht\Downloads\huynhtu\backend)
+  warning: struct `ResolveRequest` is never constructed
+   --> src\routes\download.rs:5:8
+    |
+  5 | struct ResolveRequest {
+    |        ^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+  
+  warning: struct `DriverPatternRequest` is never constructed
+   --> src\routes\drivers.rs:5:12
+    |
+  5 | pub struct DriverPatternRequest {
+    |            ^^^^^^^^^^^^^^^^^^^^
+  
+  warning: `huynhtu-backend` (lib) generated 2 warnings
+      Finished `release` profile [optimized] target(s) in 7.07s
+  'wasm-bindgen' is not recognized as an internal or external command,
+  operable program or batch file.
+      at makeError (C:\Users\huyht\AppData\Local\npm-cache\_npx\32026684e21afda6\node_modules\wrangler\wrangler-dist\cli.js:127137:18)
+      at handlePromise (C:\Users\huyht\AppData\Local\npm-cache\_npx\32026684e21afda6\node_modules\wrangler\wrangler-dist\cli.js:127604:29)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async runCommand (C:\Users\huyht\AppData\Local\npm-cache\_npx\32026684e21afda6\node_modules\wrangler\wrangler-dist\cli.js:127801:5)
+      at async runCustomBuild (C:\Users\huyht\AppData\Local\npm-cache\_npx\32026684e21afda6\node_modules\wrangler\wrangler-dist\cli.js:127814:5)
+      at async getEntry (C:\Users\huyht\AppData\Local\npm-cache\_npx\32026684e21afda6\node_modules\wrangler\wrangler-dist\cli.js:218947:3)
+      at async Object.handler (C:\Users\huyht\AppData\Local\npm-cache\_npx\32026684e21afda6\node_modules\wrangler\wrangler-dist\cli.js:220004:23)
+      at async C:\Users\huyht\AppData\Local\npm-cache\_npx\32026684e21afda6\node_modules\wrangler\wrangler-dist\cli.js:168984:26
+      at async Object.handler (C:\Users\huyht\AppData\Local\npm-cache\_npx\32026684e21afda6\node_modules\wrangler\wrangler-dist\cli.js:168933:7) {
+    shortMessage: 'Command failed with exit code 1: cargo build --release --target wasm32-unknown-unknown && wasm-bindgen --target bundler target/wasm32-unknown-unknown/release/huynhtu_backend.wasm --out-dir build/worker',
+    command: 'cargo build --release --target wasm32-unknown-unknown && wasm-bindgen --target bundler target/wasm32-unknown-unknown/release/huynhtu_backend.wasm --out-dir build/worker',
+    escapedCommand: 'cargo build --release --target wasm32-unknown-unknown "&&" wasm-bindgen --target bundler "target/wasm32-unknown-unknown/release/huynhtu_backend.wasm" --out-dir "build/worker"',
+    exitCode: 1,
+    signal: undefined,
+    signalDescription: undefined,
+    stdout: '',
+    stderr: '   Compiling huynhtu-backend v0.1.0 (C:\\Users\\huyht\\Downloads\\huynhtu\\backend)\n' +
+      'warning: struct `ResolveRequest` is never constructed\n' +
+      ' --> src\\routes\\download.rs:5:8\n' +
+      '  |\n' +
+      '5 | struct ResolveRequest {\n' +
+      '  |        ^^^^^^^^^^^^^^\n' +
+      '  |\n' +
+      '  = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default\n' +
+      '\n' +
+      'warning: struct `DriverPatternRequest` is never constructed\n' +
+      ' --> src\\routes\\drivers.rs:5:12\n' +
+      '  |\n' +
+      '5 | pub struct DriverPatternRequest {\n' +
+      '  |            ^^^^^^^^^^^^^^^^^^^^\n' +
+      '\n' +
+      'warning: `huynhtu-backend` (lib) generated 2 warnings\n' +
+      '    Finished `release` profile [optimized] target(s) in 7.07s\n' +
+      "'wasm-bindgen' is not recognized as an internal or external command,\r\n" +
+      'operable program or batch file.',
+    failed: true,
+    timedOut: false,
+    isCanceled: false,
+    killed: false
+  }
+
+
+
+X [ERROR] Running custom build `cargo build --release --target wasm32-unknown-unknown && wasm-bindgen --target bundler target/wasm32-unknown-unknown/release/huynhtu_backend.wasm --out-dir build/worker` failed. There are likely more logs from your build command above.
+
+
+≡ƒ¬╡  Logs were written to "C:\Users\huyht\AppData\Roaming\xdg.config\.wrangler\logs\wrangler-2026-02-24_06-41-49_689.log"

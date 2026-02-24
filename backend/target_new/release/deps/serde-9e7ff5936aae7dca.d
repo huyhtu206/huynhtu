@@ -1,0 +1,14 @@
+C:\Users\huyht\Downloads\huynhtu\backend\target_new\release\deps\serde-9e7ff5936aae7dca.d: C:\Users\huyht\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\huyht\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\huyht\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\huyht\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\huyht\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\huyht\Downloads\huynhtu\backend\target_new\release\build\serde-817624efa677dc92\out/private.rs
+
+C:\Users\huyht\Downloads\huynhtu\backend\target_new\release\deps\libserde-9e7ff5936aae7dca.rlib: C:\Users\huyht\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\huyht\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\huyht\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\huyht\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\huyht\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\huyht\Downloads\huynhtu\backend\target_new\release\build\serde-817624efa677dc92\out/private.rs
+
+C:\Users\huyht\Downloads\huynhtu\backend\target_new\release\deps\libserde-9e7ff5936aae7dca.rmeta: C:\Users\huyht\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\huyht\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\huyht\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\huyht\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\huyht\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\huyht\Downloads\huynhtu\backend\target_new\release\build\serde-817624efa677dc92\out/private.rs
+
+C:\Users\huyht\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs:
+C:\Users\huyht\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs:
+C:\Users\huyht\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs:
+C:\Users\huyht\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs:
+C:\Users\huyht\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs:
+C:\Users\huyht\Downloads\huynhtu\backend\target_new\release\build\serde-817624efa677dc92\out/private.rs:
+
+# env-dep:OUT_DIR=C:\\Users\\huyht\\Downloads\\huynhtu\\backend\\target_new\\release\\build\\serde-817624efa677dc92\\out

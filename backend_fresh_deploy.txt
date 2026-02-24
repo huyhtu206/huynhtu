@@ -1,0 +1,11 @@
+
+ Γ¢à∩╕Å wrangler 4.68.0
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+Γû▓ [WARNING] No lock file has been detected in the current working directory. This might indicate that the project is part of a workspace. Auto-configuration of projects inside workspaces is limited. See https://developers.cloudflare.com/workers/framework-guides/automatic-configuration/#workspaces
+
+
+
+X [ERROR] Could not detect a directory containing static files (e.g. html, css and js) for the project
+
+
+≡ƒ¬╡  Logs were written to "C:\Users\huyht\AppData\Roaming\xdg.config\.wrangler\logs\wrangler-2026-02-24_06-40-51_867.log"

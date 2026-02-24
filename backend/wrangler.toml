@@ -1,0 +1,15 @@
+name = "huynhtu-backend"
+main = "build/worker/shim.mjs"
+compatibility_date = "2024-01-01"
+
+[build]
+command = "cargo build --release --target wasm32-unknown-unknown && wasm-bindgen --target bundler target/wasm32-unknown-unknown/release/huynhtu_backend.wasm --out-dir build/worker"
+
+[[routes]]
+pattern = "api.huynhtu.com/*"
+zone_name = "huynhtu.com"
+
+[[kv_namespaces]]
+binding = "LINKS"
+id = "eca943d1df30409d853bed5251a060ff"
+

@@ -1,0 +1,21 @@
+    Checking huynhtu-backend v0.1.0 (C:\Users\huyht\Downloads\huynhtu\backend)
+error[E0428]: the name `download` is defined multiple times
+ --> src\routes\mod.rs:4:1
+  |
+1 | pub mod download;
+  | ----------------- previous definition of the module `download` here
+...
+4 | pub mod download;
+  | ^^^^^^^^^^^^^^^^^ `download` redefined here
+  |
+  = note: `download` must be defined only once in the type namespace of this module
+
+error[E0433]: failed to resolve: could not find `pages` in `routes`
+  --> src\lib.rs:70:24
+   |
+70 |         return routes::pages::handle(slug);
+   |                        ^^^^^ could not find `pages` in `routes`
+
+Some errors have detailed explanations: E0428, E0433.
+For more information about an error, try `rustc --explain E0428`.
+error: could not compile `huynhtu-backend` (lib) due to 2 previous errors
